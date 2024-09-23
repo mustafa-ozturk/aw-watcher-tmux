@@ -11,7 +11,7 @@ get_tmux_option() {
 # Usage examle:
 # set -g @aw-watcher-tmux-host 'my.aw-server.test'
 POLL_INTERVAL=$(get_tmux_option "@aw-watcher-tmux-poll-interval" 10) # seconds
-HOST=$(get_tmux_option "@aw-watcher-tmux-host" "localhost")
+HOST=$(get_tmux_option "@aw-watcher-tmux-host" "thinkpad")
 PORT=$(get_tmux_option "@aw-watcher-tmux-port" "5600")
 PULSETIME=$(get_tmux_option "@aw-watcher-tmux-pulsetime" "120.0")
 
